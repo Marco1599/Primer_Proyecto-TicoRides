@@ -15,7 +15,7 @@
     color: #fff;
 }
 
-a:hover{
+.encabezado a:hover{
     background: #3A58BD;
 }
 
@@ -72,4 +72,34 @@ h1{
     color: #686B6B;
 }
 
+.panel_resultados{
+    margin: 0% 0% 5%;
+}
 
+.panel_resultados h3{
+    margin: 5% 0% 1%;
+}
+
+table{
+    border-collapse: collapse;
+    border: #000 3px solid;
+}
+table td{
+    border: #000 3px solid;
+    padding: 2% 2% 0% 1%;
+    width: 190px;
+    background: #2874A6;
+}
+
+table td a{
+    background: #2874A6;
+    text-decoration: none;
+}
+
+table td a:hover{
+    color: #FFDC00;
+}
+
+.titulo{
+    background: #154360;
+}
