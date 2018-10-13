@@ -10,51 +10,49 @@
 <body>
     <div class="encabezado">
         <a href="#">Iniciar Sesión</a>
-        <div class="imagen_principal">
-            <img src="img/TicoRides.png" alt="Logo Tico Rides">
-            <div class="titulo_principal">
-                <h1>Bienvenido(@) a TicoRides.com</h1>
-            </div>
+        <img src="img/TicoRides.png" alt="Logo Tico Rides">
+    </div>
+   <div class="contenedor">
+        <h1>Bienvenido(@) a TicoRides.com</h1>
+        <div class="panel_busqueda">
+            <h3>Buscar un paseo</h3>
+            <form>
+                <label for="desde">Desde</label>
+                <input type="text" id="desde" placeholder="Origen" class="text">
+                <label for="a">a</label>
+                <input type="text" id="a" placeholder="Destino" class="text">
+                <input type="submit" value="Buscar mi viaje!" class="boton">
+            </form>
+        </div>
+        <div class="panel_resultados">
+            <h3>Resultados de paseos que coinciden con su busqueda</h3>
+            <table>
+                <tr>
+                    <td><b>Usuario</b></td>
+                    <td><b>Inicio</b></td>
+                    <td><b>Fin</b></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>barroyo</td>
+                    <td>Barrio Los Angeles</td>
+                    <td>Ciudad Quesada</td>
+                    <td><a href="#">Ver</a></td>
+                </tr>
+                <tr>
+                    <td>barroyo</td>
+                    <td>Ciudad Quesada</td>
+                    <td>Los Angelos</td>
+                    <td><a href="#">Ver</a></td>
+                </tr>
+                <tr>
+                    <td>yluna</td>
+                    <td>Ciudad Quesada</td>
+                    <td>San Pedro</td> 
+                    <td><a href="#">Ver</a></td>
+                </tr>
+            </table>
         </div>
     </div>
-    <div class="panel_busqueda">
-        <h3>Buscar un paseo</h3>
-        <form>
-            <label for="desde">Desde</label>
-            <input type="text" id="desde">
-            <label for="a">a</label>
-            <input type="text" id="a">
-            <input type="submit" value="Buscar mi viaje!">
-        </form>
-    </div>
-    <div class="panel_Resultados">
-        <h3>Resultados de paseos que coinciden con su busqueda</h3>
-        <table>
-            <tr>
-                <td>Usuario</td>
-                <td>Inicio</td>
-                <td>Fin</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>barroyo</td>
-                <td>Barrio Los Angeles</td>
-                <td>Ciudad Quesada</td>
-                <td><a href="#">Ver</a></td>
-           </tr>
-           <tr>
-                <td>barroyo</td>
-                <td>Ciudad Quesada</td>
-                <td>Los Angelos</td>
-                <td><a href="#">Ver</a></td>
-            </tr>
-            <tr>
-                <td>yluna</td>
-                <td>Ciudad Quesada</td>
-                <td>San Pedro</td> 
-                <td><a href="#">Ver</a></td>
-            </tr>
-        </table>
-    </div>
-</body>
-</html>
+    </body>
+    </html>

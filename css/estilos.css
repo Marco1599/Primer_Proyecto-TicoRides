@@ -1,5 +1,7 @@
 *{
-    background: #1ED5E9;
+    background-color: #00aeef;
+    font-family:'Times New Roman', Times, serif;
+    color: #fff;
 }
 .encabezado a{
     text-decoration: none;
@@ -17,10 +19,57 @@ a:hover{
     background: #3A58BD;
 }
 
-.imagen_principal img{
+.encabezado img{
     display: block;
     margin: auto;
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 500px;
 }
+
+.contenedor{
+    position: absolute;
+    left: 5%;
+    width: 50%;
+}
+
+h1{
+    font-size: 35px;
+    margin: 0%;
+}
+
+.panel_busqueda form{
+    margin: 1% 0%;
+    padding: 20px 0px;
+    border: #1A1B84 2px solid;
+}
+
+.panel_busqueda label{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.text{
+    height: 20px;
+    font-size: 15px;
+    border: #1A1B84 2px solid;
+    padding: 5px;
+
+}
+
+.panel_busqueda h3{
+    margin: 5% 0% 0%;
+}
+
+.boton{
+    font-size: 15px;
+    margin: 0% 5%;
+    padding: 5px 10px;
+    background: #fff;
+    color: #000;
+}
+
+::placeholder{
+    color: #686B6B;
+}
+
 
