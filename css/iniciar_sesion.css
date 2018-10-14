@@ -16,7 +16,7 @@
 
 form{
     position: absolute;
-    left: 33%;
+    left: 31%;
     width: 30%;
     border: 1px solid #1A1B84;
     background: #fff;
@@ -63,4 +63,10 @@ a{
     text-decoration: none;
     background: #fff;
     color: #20B182;
+}
+
+h1{
+    margin: 0% 0% 3%;
+    font-size: 18px;
+    background: #fff;
 }
