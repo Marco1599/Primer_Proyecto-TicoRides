@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/rides_edit.css">
+    <title>Editar paseos</title>
+</head>
+<body>
+    <div class="encabezado">
+        <div class="imagen">
+            <img src="img/TicoRides.png" alt="Logo TicoRides">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#" class="tablero">Tablero</a></li>
+                <li><a href="#" class="paseos">Paseos</a></li>
+                <li><a href="#" class="ajustes">Ajustes</a></li>
+            </ul>
+        </div>
+        <div class="usuario">
+            <h2>Bienvenido</h2>
+            <h3>barroyo</h3>
+            <div class="imagen_usuario">
+                <img src="img/user.png" alt="usuario">
+            </div>
+        </div>
+    </div>
+    <div class="navegacion">
+        <a href="#" id="principal">Tablero</a>
+        <div class="flecha">
+            <div class="flecha-1"></div>
+        </div>
+        <a href="#" id=paseos>Paseos</a>
+        <div class="flecha_2">
+            <div class="flecha-1"></div>
+        </div>
+        <a href="#" id=editar>Editar</a>
+    </div>
+    <div class="contenedor">
+        <form class="informacion">
+            <label for="nombre" >Nombre del viaje</label>
+            <input type="text" id="nombre" value="Brete">
+            <div class="inicio">
+                <label for="inicio" >Empezar de</label>
+                <input type="text" id="inicio" value="Barrio Los Angeles, Ciudad Quesada">
+            </div>
+            <div class="fin">
+                <label for="fin" >Fin</label>
+                <input type="text" id="fin" value="Mercado Municipal, Ciudad Quesada">
+            </div>
+            <label for="descripcion">Descripción</label>
+            <textarea id="descripcion">Este es mi viaje diario, desde Barrio Los Ángeles hasta la oficina de mi trabajo en el segundo piso o el edificio Coopeservidores.</textarea>
+        </form>
+        <hr>
+        <h2>Cuando</h2>
+        <form class="tiempo">
+            <label for="salida">Salida</label>
+            <input type="text" id="salida" value="6:45 AM">
+            <label for="llegada">Llegada estimada</label>
+            <input type="text" id="llegada" value="7:05 AM">
+        </form>
+        <form class="dias">
+            <label for="dias">Seleccionar dias</label>
+            <input type="checkbox" value="lunes" name="dia1" checked>Lunes<br>
+            <input type="checkbox" value="martes" name="dia2" checked>Martes<br>
+            <input type="checkbox" value="miercoles" name="dia3" checked>Miercoles<br>
+            <input type="checkbox" value="jueves" name="dia4" checked>Jueves<br>
+            <input type="checkbox" value="viernes" name="dia5" checked>Viernes<br>
+            <input type="checkbox" value="sabado" name="dia6">Sabado<br>
+            <input type="checkbox" value="domingo" name="dia7">Domingo<br>
+        </form>
+        <div class="botones">
+            <a href="#">Cancelar</a>
+            <input type="submit" value="Guardar" class= "boton">
+        </div>
+    </div>
+</body>
+</html>
