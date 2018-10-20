@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/rides_edit.css">
+    <link rel="stylesheet" href="css/rides_add.css">
     <title>Editar paseos</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
         <div class="menu">
             <ul>
                 <li><a href="principal.html" class="tablero">Tablero</a></li>
-                <li><a href="#" class="paseos">Paseos</a></li>
+                <li><a href="rides_add.html" class="paseos">Paseos</a></li>
                 <li><a href="ajustes.html" class="ajustes">Ajustes</a></li>
             </ul>
         </div>
@@ -36,38 +36,38 @@
         <div class="flecha_2">
             <div class="flecha-1"></div>
         </div>
-        <a href="#" id=editar>Editar</a>
+        <a href="#" id=annadir>Añadir</a>
     </div>
     <div class="contenedor">
         <form class="informacion">
             <label for="nombre" >Nombre del viaje</label>
-            <input type="text" id="nombre" value="Brete">
+            <input type="text" id="nombre" placeholder="Escriba el nombre del paseo">
             <div class="inicio">
                 <label for="inicio" >Empezar de</label>
-                <input type="text" id="inicio" value="Barrio Los Angeles, Ciudad Quesada">
+                <input type="text" id="inicio" placeholder="Escriba el lugar de salida">
             </div>
             <div class="fin">
                 <label for="fin" >Fin</label>
-                <input type="text" id="fin" value="Mercado Municipal, Ciudad Quesada">
+                <input type="text" id="fin" placeholder="Escriba el lugar de llegada">
             </div>
             <label for="descripcion">Descripción</label>
-            <textarea id="descripcion">Este es mi viaje diario, desde Barrio Los Ángeles hasta la oficina de mi trabajo en el segundo piso o el edificio Coopeservidores.</textarea>
+            <textarea id="descripcion" placeholder="Añade aquí la descripción del paseo."></textarea>
         </form>
         <hr>
         <h2>Cuando</h2>
         <form class="tiempo">
             <label for="salida">Salida</label>
-            <input type="text" id="salida" value="6:45 AM">
+            <input type="text" id="salida" placeholder="6:45 AM">
             <label for="llegada">Llegada estimada</label>
-            <input type="text" id="llegada" value="7:05 AM">
+            <input type="text" id="llegada" placeholder="7:05 AM">
         </form>
         <form class="dias">
             <label for="dias">Seleccionar dias</label>
-            <input type="checkbox" value="lunes" name="dia1" checked>Lunes<br>
-            <input type="checkbox" value="martes" name="dia2" checked>Martes<br>
-            <input type="checkbox" value="miercoles" name="dia3" checked>Miercoles<br>
-            <input type="checkbox" value="jueves" name="dia4" checked>Jueves<br>
-            <input type="checkbox" value="viernes" name="dia5" checked>Viernes<br>
+            <input type="checkbox" value="lunes" name="dia1">Lunes<br>
+            <input type="checkbox" value="martes" name="dia2">Martes<br>
+            <input type="checkbox" value="miercoles" name="dia3">Miercoles<br>
+            <input type="checkbox" value="jueves" name="dia4">Jueves<br>
+            <input type="checkbox" value="viernes" name="dia5">Viernes<br>
             <input type="checkbox" value="sabado" name="dia6">Sabado<br>
             <input type="checkbox" value="domingo" name="dia7">Domingo<br>
         </form>
